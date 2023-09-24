@@ -1,0 +1,5 @@
+# Excluir las variables de entorno
+.env
+
+# Excluir la carpeta node_modules
+node_modules/
