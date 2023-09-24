@@ -7,10 +7,12 @@ import BaileysProvider from '@bot-whatsapp/provider/baileys';
 import MockAdapter from '@bot-whatsapp/database/mock';
 import flowBienvenida from './flows/flowBienvenida.js'
 import dotenv from 'dotenv';
+import express from 'express'
 
 //import flowBienvenida from 'flows/flowBienvenida';
 //import flowBienvenida from './flows/flowBienvenida.js'
 
+const app = express()
 
 dotenv.config();
 
